@@ -96,9 +96,9 @@ El pipeline automatiza la ingesta de registros médicos crudos, realiza transfor
         └── 03_gold_analytics.ipynb         # KPIs de negocio, agregaciones y reportes analíticos
 
 ### ▶️ Cómo Ejecutarlo
-1. Clona este repositorio en tu workspace de Databricks utilizando **Databricks Git Folders**.
-2. Configura tu entorno con un cluster Databricks Serverless o un cluster Spark estándar.
-3. Ejecuta los notebooks en orden secuencial:
+1. Clonar este repositorio en workspace de Databricks utilizando **Databricks Git Folders**.
+2. Configurar entorno con un cluster Databricks Serverless o un cluster Spark estándar.
+3. Ejecutar los notebooks en orden secuencial:
    - Ejecutar `notebooks/01_bronze_ingestion.ipynb`
    - Ejecutar `notebooks/02_silver_transformation.ipynb`
    - Ejecutar `notebooks/03_gold_analytics.ipynb`
